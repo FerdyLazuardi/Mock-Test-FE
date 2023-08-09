@@ -51,10 +51,10 @@ function TodoModal({ type, modalOpen, setModalOpen, todo }) {
       toast.error("Please enter a title");
       return;
     }
-    // if (deadline === "") {
-    //   toast.error("Please enter a deadline");
-    //   return;
-    // }
+    if (deadline === "") {
+      toast.error("Please enter a deadline");
+      return;
+    }
 
     const taskData = {
       tittle,
