@@ -30,7 +30,7 @@ const Login = () => {
       localStorage.setItem("token", response.data.data.token);
 
       // Redirect ke halaman localhost:3000 setelah login berhasil
-      window.location.href = "https://todog-apps.netlify.app//task";
+      window.location.href = "https://todog-apps.netlify.app/task";
     } catch (error) {
       setError("Invalid pin");
     }
