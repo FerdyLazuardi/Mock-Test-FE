@@ -92,7 +92,10 @@ const Register = () => {
                 <p className="text-center medium">
                   Congratulations, Registration Success. In a little while, you
                   will be able to enjoy the pleasures of the world. Next, Please
-                  <Link to={"http://localhost:5173/"} className="fw-bold">
+                  <Link
+                    to={"https://todog-apps.netlify.app/"}
+                    className="fw-bold"
+                  >
                     {" "}
                     Login Here
                   </Link>
@@ -149,7 +152,7 @@ const Register = () => {
           </form>
           <p className="mt-5 mb-1 text-center">Already have an account?</p>
           <p className="fw-bold text-center">
-            <Link to={"http://localhost:5173/"}>SIGN IN</Link>
+            <Link to={"https://todog-apps.netlify.app/"}>SIGN IN</Link>
           </p>
         </div>
 
