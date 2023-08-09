@@ -71,7 +71,7 @@ const Login = () => {
           </form>
           <p className="mt-5 mb-1 text-center">Don't have an account?</p>
           <p className="fw-bold text-center">
-            <Link to={"https://todog-apps.netlify.app//register"}>SIGN UP</Link>
+            <Link to={"https://todog-apps.netlify.app/register"}>SIGN UP</Link>
           </p>
         </div>
 
