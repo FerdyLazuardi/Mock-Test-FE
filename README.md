@@ -3,9 +3,9 @@ This is the Front End Repository for the Mock Test at Binar Academy. Feel free t
 
 > [!IMPORTANT]
 > You must run the backend locally due to the unavailability of free PostgreSQL hosting for deployment.
-> Test account. Pin : 1234
 
 [Link Deployment](https://todog-apps.netlify.app/)
+Test account, pin : 1234
 
 ## Authors
 - [Ferdy Fadhil Lazuardi](https://github.com/FerdyLazuardi)
